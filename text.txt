@@ -1,0 +1,77 @@
+
+Portable@DESKTOP-HJB0GMM MINGW64 ~
+$ cd
+Display all 42 possibilities? (y or n)
+
+Portable@DESKTOP-HJB0GMM MINGW64 ~
+$ cd Desktop
+
+Portable@DESKTOP-HJB0GMM MINGW64 ~/Desktop
+$ cd GD
+
+Portable@DESKTOP-HJB0GMM MINGW64 ~/Desktop/GD
+$ cd Scripts/
+
+Portable@DESKTOP-HJB0GMM MINGW64 ~/Desktop/GD/Scripts
+$ git init
+Initialized empty Git repository in C:/Users/Portable/Desktop/GD/Scripts/.git/
+
+Portable@DESKTOP-HJB0GMM MINGW64 ~/Desktop/GD/Scripts (master)
+$ git remote add origin https://github.com/zoelemaitre/Misc.git
+
+Portable@DESKTOP-HJB0GMM MINGW64 ~/Desktop/GD/Scripts (master)
+$ git add .
+
+Portable@DESKTOP-HJB0GMM MINGW64 ~/Desktop/GD/Scripts (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   text.txt
+
+
+Portable@DESKTOP-HJB0GMM MINGW64 ~/Desktop/GD/Scripts (master)
+$ git commit -m "initial commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Portable@DESKTOP-HJB0GMM.(none)')
+
+Portable@DESKTOP-HJB0GMM MINGW64 ~/Desktop/GD/Scripts (master)
+$ git config --global user.email "zoe.lemaitre3@gmail.com"
+
+Portable@DESKTOP-HJB0GMM MINGW64 ~/Desktop/GD/Scripts (master)
+$ git config --global user.name "zoe"
+
+Portable@DESKTOP-HJB0GMM MINGW64 ~/Desktop/GD/Scripts (master)
+$ git commit -m "initial commit"
+[master (root-commit) 825d62b] initial commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 text.txt
+
+Portable@DESKTOP-HJB0GMM MINGW64 ~/Desktop/GD/Scripts (master)
+$ git push -u origin master
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 208 bytes | 208.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/zoelemaitre/Misc.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Portable@DESKTOP-HJB0GMM MINGW64 ~/Desktop/GD/Scripts (master)
+$ ^C
+
+Portable@DESKTOP-HJB0GMM MINGW64 ~/Desktop/GD/Scripts (master)
+$
